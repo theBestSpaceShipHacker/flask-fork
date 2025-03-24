@@ -4,7 +4,8 @@ Version 3.2.0
 Unreleased
 
 -   Remove previously deprecated code: ``__version__``. :pr:`5648`
-
+-   Pass the request ctx rather than use the globals in the app class
+    methods. :pr:`5229`
 
 Version 3.1.1
 -------------
